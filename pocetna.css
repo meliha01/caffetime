@@ -1,0 +1,98 @@
+body {
+    color: white;
+    background-color: black;
+    font-style: courier;
+    padding: 0;
+    margin: 0;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.lijevo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 40px;
+    flex:1;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ikona{
+    display: flex;
+    flex-direction: column;
+    background-color:#1B3A4B;
+    border: 15px solid #1B3A4B ;
+    border-radius: 50%;
+    transition: transform .9s;
+}
+
+.ikona:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+
+.socials{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fbig{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.meni{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.desno{
+    background-image: 
+    linear-gradient(to left, transparent, transparent, rgb(0,0,0,0.8)),
+    url(coffe1111.jpg);
+    background-size: cover;
+    background-position: cover;
+    height: auto;
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #1B3A4B;
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+}
